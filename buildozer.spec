@@ -9,6 +9,9 @@ package.name = choppayks
 # (str) Package domain (needed for android packaging)
 package.domain = org.yks
 
+# (str) Application versioning
+version = 0.1
+
 # (str) Source code directory
 source.dir = .
 
