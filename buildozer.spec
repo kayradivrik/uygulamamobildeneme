@@ -20,7 +20,7 @@ source.include_exts = py,png,jpg,kv,atlas,db
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.11.8,kivy==2.3.0,kivymd==1.2.0,plyer
+requirements = python3,kivy==2.3.0,kivymd==1.2.0,plyer
 
 # (str) Supported orientations
 # Valid values are: landscape, portrait, portrait-upside-down, all
@@ -56,3 +56,6 @@ android.release_artifact = apk
 
 # (str) Format used to package the app for debug (apk)
 android.debug_artifact = apk
+
+# (str) python-for-android branch to use
+p4a.branch = v2024.01.21
